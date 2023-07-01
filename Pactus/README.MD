@@ -65,28 +65,25 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 - **Balance Reward**
 [https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
 
-
-## Error & Solutions
+## Fix & Error
 - **Error : Port is already in use**
-```
-docker rm pactus-testnet
-```
-```
-docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
-```
+	```
+	docker rm pactus-testnet
+	```
+	```
+	docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
+	```
 
 - **Error : Exiced Code / Request Password**
-```
-docker rm pactus-testnet
-```
-```
-sudo apt-get install screen 
-```
-```
-screen -S 
-```
-docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
-```
+	```
+	docker rm pactus-testnet
+	```
+	```
+	sudo apt-get install screen 
+	```
+	```
+	screen -S 
+	```
 
 
 
