@@ -40,6 +40,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	docker run -it --rm -v ~/pactus/testnet:/pactus pactus/pactus init -w /pactus --testnet
 	```
 5. **Save Seed & Input Password**
+
 6. **Run Node**
 	```
 	docker run -it -v ~/pactus/testnet:/pactus -p 8080:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
