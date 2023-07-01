@@ -35,7 +35,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker pull pactus/pactus
 	```
-4. **RUN DOCKER CONTAINER:**
+4. **RUN DOCKER CONTAINER**
 	```
 	docker run -it --rm -v ~/pactus/testnet:/pactus pactus/pactus init -w /pactus --testnet
 	```
