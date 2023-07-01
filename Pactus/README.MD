@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-# Validator Installation On Linux Ubuntu 20.04 LTS
+  <h1>Validator Installation On Linux Ubuntu 20.04 LTS</h1>
 </p>
 
 ## Pactus Description
