@@ -9,7 +9,7 @@
   <a href="https://pactusscan.com/">Explorer</a>
 </p>
 
-# Pactus: Validator Installation On Linux Ubuntu 20.04 LTS
+# Validator Installation On Linux Ubuntu 20.04 LTS
 
 ## Pactus Description
 
