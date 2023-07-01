@@ -51,6 +51,8 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker logs pactus-testnet --tail 1000 -f
 	```
+## Useful
+
 - **CHECK BALANCE FAUCET**
 [https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
 
