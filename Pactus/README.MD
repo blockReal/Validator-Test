@@ -51,10 +51,10 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker logs pactus-testnet --tail 1000 -f
 	```
-## Useful
+## CHECK
 
-- **CHECK BALANCE FAUCET**
+- **BALANCE FAUCET**
 [https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
 
-- **CHECK BALANCE REWARD**
+- **BALANCE REWARD**
 [https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
