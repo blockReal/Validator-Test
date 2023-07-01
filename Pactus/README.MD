@@ -1,6 +1,6 @@
 # Pactus : Instalasi Validator On Linux 20
 
-![Alt Text](gambar.png)
+![Alt Text](https://pactus.org/assets/images/logos/text_logo.png)
 
 [Discord](https://discord.com/invite/H5vZkNnXCu)
 [Twitter](https://twitter.com/pactuschain)
