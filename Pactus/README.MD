@@ -74,7 +74,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 ## Fix & Error
 - **Error `Port is already in use`**
-- **Fix 
+- **Fix**
 	```
 	docker stop pactus-testnet
 	```
