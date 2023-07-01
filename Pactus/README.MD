@@ -73,7 +73,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 [https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
 
 ## Fix & Error
-- **Error : `Port is already in use`**
+- **Error 
+	`Port is already in use`**
+  **Fix 
 	```
 	docker stop pactus-testnet
 	```
