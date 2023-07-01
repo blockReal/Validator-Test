@@ -72,6 +72,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 ## Fix & Error
 - **Error : Port is already in use**
 	```
+	docker stop pactus-testnet
+	```
+	```
 	docker rm pactus-testnet
 	```
 	```
@@ -79,6 +82,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 
 - **Error : Exiced Code / Stalled / Request Password**
+	```
+	docker stop pactus-testnet
+	```
 	```
 	docker rm pactus-testnet
 	```
