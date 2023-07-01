@@ -74,7 +74,6 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 ## Fix & Error
 - **Error `Port is already in use`**
-- **Fix**
 	```
 	docker stop pactus-testnet
 	```
@@ -85,9 +84,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
 	```
 
-- **Error 
-	-`Exiced Code / Stalled / Request Password`**
-- **Fix 
+- **Error `Exiced Code / Stalled / Request Password`**
 	```
 	docker stop pactus-testnet
 	```
