@@ -63,7 +63,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	docker logs pactus-testnet --tail 1000 -f
 	```
 ## Faucet 
-<a href="https://discord.com/invite/H5vZkNnXCu">Request</a>]
+<a href="https://discord.com/invite/H5vZkNnXCu">Request</a>
 
 ## Balance
 - **Balance Faucet**
