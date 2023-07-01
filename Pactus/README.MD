@@ -1,11 +1,15 @@
-# Pactus : Installation Validator On Linux 20
+<p align="center">
+  <img src="https://pactus.org/assets/images/logos/text_logo.png" alt="Pactus Logo">
+</p>
 
-![Alt Text](https://pactus.org/assets/images/logos/text_logo.png)
+<p align="center">
+  <a href="https://discord.com/invite/H5vZkNnXCu">Discord</a> |
+  <a href="https://twitter.com/pactuschain">Twitter</a> |
+  <a href="https://pactus.org/user-guides/">Docs</a> |
+  <a href="https://pactusscan.com/">Explorer</a>
+</p>
 
-[Discord](https://discord.com/invite/H5vZkNnXCu)
-[Twitter](https://twitter.com/pactuschain)
-[Docs](https://pactus.org/user-guides/)
-[Explorer](https://pactusscan.com/)
+# Pactus: Validator Installation On Linux Ubuntu 20.04 LTS
 
 ## Pactus Description
 
