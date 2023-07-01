@@ -7,9 +7,8 @@
   <a href="https://twitter.com/pactuschain">Twitter</a> |
   <a href="https://pactus.org/user-guides/">Docs</a> |
   <a href="https://pactusscan.com/">Explorer</a>
-</p>
-
 # Validator Installation On Linux Ubuntu 20.04 LTS
+</p>
 
 ## Pactus Description
 
