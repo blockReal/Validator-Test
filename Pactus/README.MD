@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <h1># Validator Installation On Linux Ubuntu 20.04 LTS</h1>
+  <h1>Validator Installation On Linux Ubuntu 20.04 LTS</h1>
 </p>
 
 <p align="center">
-  <h2># Incentive : confirm</h1>
+  <h2>Incentive Reward [confirm]</h1>
 </p>
 
 ## Pactus Description
