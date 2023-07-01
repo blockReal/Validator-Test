@@ -62,7 +62,10 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker logs pactus-testnet --tail 1000 -f
 	```
-## Check [Faucet can request to <a href="https://discord.com/invite/H5vZkNnXCu">Discord</a>]
+## Faucet 
+<a href="https://discord.com/invite/H5vZkNnXCu">Request</a>]
+
+## Balance
 - **Balance Faucet**
 [https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
 
