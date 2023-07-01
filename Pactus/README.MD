@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <h2>Incentive Reward [confirm]</h1>
+  <h4>Incentive Reward [confirm]</h1>
 </p>
 
 ## Pactus Description
