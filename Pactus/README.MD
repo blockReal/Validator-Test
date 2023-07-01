@@ -84,6 +84,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	screen -S 
 	```
+	```
+	docker run -it -v ~/pactus/testnet:/pactus -p 8080:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
+	```
 
 
 
