@@ -84,7 +84,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
 	```
 
-- **Error : `Exiced Code / Stalled / Request Password`**
+- **Error 
+	-`Exiced Code / Stalled / Request Password`**
+- **Fix 
 	```
 	docker stop pactus-testnet
 	```
