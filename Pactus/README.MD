@@ -1,4 +1,4 @@
-# Pactus : Instalasi Validator On Linux 20
+# Pactus : Installation Validator On Linux 20
 
 ![Alt Text](https://pactus.org/assets/images/logos/text_logo.png)
 
