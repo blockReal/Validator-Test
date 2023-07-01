@@ -58,11 +58,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker logs pactus-testnet --tail 1000 -f
 	```
-## Check
+## Check [Faucet can request to Discord]
 - **Balance Faucet**
 [https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
-
-Faucet can request to Discord
 
 - **Balance Reward**
 [https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
