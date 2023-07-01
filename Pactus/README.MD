@@ -10,10 +10,13 @@
 </p>
 
 <p align="center">
-  <h1>Validator Installation On Linux Ubuntu 20.04 LTS</h1>
+  <h1># Validator Installation On Linux Ubuntu 20.04 LTS</h1>
 </p>
 
-# Incentive : confirm
+<p align="center">
+  <h2># Incentive : confirm</h1>
+</p>
+
 ## Pactus Description
 Pactus is a decentralized blockchain platform that aims to create a user-friendly ecosystem by eliminating centralization and manipulation. It utilizes a percentage-based fee model, offers dedicated decentralized storage, and focuses on simplicity and accessibility for all users.
 
