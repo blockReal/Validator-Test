@@ -43,7 +43,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker run -it --rm -v ~/pactus/testnet:/pactus pactus/pactus init -w /pactus --testnet
 	```
-5. **Seed & Input Password** `SAVE`
+5. **`SAVE`Seed & Input Password**
 
 6. **Run Node**
 	```
