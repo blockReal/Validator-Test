@@ -92,16 +92,16 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	docker rm pactus-testnet
 	```
 	```
-	sudo apt-get install screen                                                            # Install Screen
+	sudo apt-get install screen                                                                             # Install Screen
 	```
 	```
-	screen -S                                                                              # Sett to Screen
+	screen -S                                                                                               # Sett to Screen
 	```
 	```
 	docker run -it -v ~/pactus/testnet:/pactus -p 8080:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
 	```
 	```
-	screen -r                                                                               # Back to Screen
+	screen -r                                                                                               # Back to Screen
 	```
 
 
