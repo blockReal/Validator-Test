@@ -5,7 +5,7 @@
 [Discord](https://discord.com/invite/H5vZkNnXCu)
 [Twitter](https://twitter.com/pactuschain)
 [Docs](https://pactus.org/user-guides/)
-[Docs](https://pactusscan.com/)
+[Explorer](https://pactusscan.com/)
 
 ## Pactus Description
 
