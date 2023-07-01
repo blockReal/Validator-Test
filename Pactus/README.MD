@@ -18,7 +18,7 @@
 </p>
 
 ## Pactus Description
-Pactus is a decentralized blockchain platform that aims to create a user-friendly ecosystem by eliminating centralization and manipulation. It utilizes a percentage-based fee model, offers dedicated decentralized storage, and focuses on simplicity and accessibility for all users.
+Pactus is a decentralized blockchain platform that aims to create a user-friendly ecosystem by eliminating centralization and manipulation. It utilizes a percentage-based fee model, offers dedicated decentralized storage, and focuses on simplicity and accessibility for all users. Pactus aims to provide a secure and scalable infrastructure for various decentralized applications and services. By leveraging blockchain technology, Pactus seeks to empower individuals and businesses to participate in a decentralized economy while ensuring transparency and trust. Through its innovative features and user-centric approach, Pactus strives to revolutionize the way we interact with digital assets and establish a more inclusive and decentralized future.
 
 ## Minimum Spec Hardware
 NODE  | CPU     | RAM      | SSD     | OS     |
