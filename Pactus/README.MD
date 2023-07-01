@@ -23,43 +23,43 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 ## Installation
 
-1. **UPDATE**
+1. **Update**
 	```
 	sudo apt update; sudo apt upgrade
 	```
-2. **INSTALL DOCKER AND OTHER DEPENDENCIES**
+2. **Install Docker & Dependemcies**
 	```
 	sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport-https ca-certificates curl software-properties- common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 	```
-3. **DOWNLOAD PACTUS IMAGE**
+3. **Download PACTUS Image**
 	```
 	docker pull pactus/pactus
 	```
-4. **RUN DOCKER CONTAINER**
+4. **Run Docker Container**
 	```
 	docker run -it --rm -v ~/pactus/testnet:/pactus pactus/pactus init -w /pactus --testnet
 	```
-5. **RUN NODE**
+5. **Save Seed & Input Password**
+6. **Run Node**
 	```
 	docker run -it -v ~/pactus/testnet:/pactus -p 8080:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
 	```
 ## Useful Commands
-- **STOP NODE**
+- **Stop Node**
 	```
 	docker stop pactus-testnet 
 	```
-- **START NODE**
+- **Start Node**
 	```
 	docker start pactus-testnet 
 	```
-- **CHECK NODE LOGS**
+- **Check Logs**
 	```
 	docker logs pactus-testnet --tail 1000 -f
 	```
-## CHECK
-
-- **BALANCE FAUCET**
+## Check
+- **Balance Faucet**
 [https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
 
-- **BALANCE REWARD**
+- **Balance Reward**
 [https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
