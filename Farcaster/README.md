@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://www.farcaster.xyz/">Official</a> |
   <a href="https://twitter.com/farcaster_xyz">Twitter</a> |
-  <a href="https://github.com/farcasterxyz/protocol">Docs</a> |
 </p>
 
 <p align="center">
