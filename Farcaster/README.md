@@ -72,14 +72,14 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 	docker compose exec hubble yarn status --watch --insecure
 	```
-11. **Upgrading go to `apps/hubble`**
-     	```
+11. **Upgrading go to `apps/hubble` **
+	```    
 	docker pull farcasterxyz/hubble:latest
  	```
   	```
 	docker compose stop && docker compose up -d --force-recreate
  	```
-12. **Check Logs**
-     	```
+13. **Check Logs**
+	```
 	docker compose logs -f hubble
  	```
