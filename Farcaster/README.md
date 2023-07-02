@@ -23,7 +23,6 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 | Farcaster | 2          | 8         | 20  | Ubuntu 20.04 LTS  |
 
 ## Installation
-Prepare Open Port 
 
 1. **Update**
 	```
@@ -35,11 +34,9 @@ Prepare Open Port
         https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo 
         apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 	```
-3. **Open Port**
+3. **Port**
 	```
-	sudo ufw allow 8545
-	sudo ufw allow 2282
- 	sudo ufw allow 2283 
+	sudo ufw allow 8545 && ufw allow 2282 && sudo ufw allow 2283 
 	```
 4. **Clone Repository**
 	```
@@ -77,3 +74,14 @@ Prepare Open Port
 	```
 	docker compose exec hubble yarn status --watch --insecure
 	```
+11. **Upgrading go to `apps/hubble`**
+     	```
+	docker pull farcasterxyz/hubble:latest
+ 	```
+  	```
+	docker compose stop && docker compose up -d --force-recreate
+ 	```
+12. **Check Logs**
+     	```
+	docker compose logs -f hubble
+ 	```
