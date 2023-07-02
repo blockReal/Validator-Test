@@ -39,9 +39,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	sudo apt install -y flatbuffers-compiler
 	```
 4. **Endpoint Goerli Ethereum**
-- <a href="https://www.infura.io/">`Infura`</a>
+	- <a href="https://www.infura.io/">`Infura`</a>
    OR
-- <a href="https://www.alchemy.com/">`Alchemy`</a>
+	- <a href="https://www.alchemy.com/">`Alchemy`</a>
 
 5. **Open Port**
 	```
