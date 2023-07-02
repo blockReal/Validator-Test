@@ -71,15 +71,15 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 10. **Monitor Status**
 	```
 	docker compose exec hubble yarn status --watch --insecure
-	```
- 11. **Upgrade Go to apps/hubble**
+	``` 
+11. **Upgrade Go to apps/hubble**
      	```
 	docker pull farcasterxyz/hubble:latest
 	```
      	```
 	docker compose stop && docker compose up -d --force-recreate
 	```
- 12. **Check Logs**
+12. **Check Logs**
      	```
 	docker compose logs -f hubble
 	```
