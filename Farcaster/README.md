@@ -26,43 +26,47 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 1. **Update**
 	```
+	sudo apt update && sudo apt upgrade -y
+	```
+2. **Install Git**
+	```
 	sudo apt install curl git -y
 	```
-2. **Install Node**
+3. **Install Node**
 	```
 	curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
     source ~/.bashrc
 	```
-3. **Install Flatbuffers**
+4. **Install Flatbuffers**
 	```
 	sudo apt update
 	sudo apt install -y flatbuffers-compiler
 	```
-4. **Create Endpoint `Goerli Ethereum`**
+5. **Create Endpoint `Goerli Ethereum`**
 	- <a href="https://www.infura.io/">`Infura`</a>
    OR
 	- <a href="https://www.alchemy.com/">`Alchemy`</a>
 
-5. **Open Port**
+6. **Open Port**
 	```
 	sudo ufw allow 8545
 	```
-6. **Clone Hubble**
+7. **Clone Hubble**
 	```
 	git clone https://github.com/farcasterxyz/hubble.git
 	```
-7. **Build Hubble**
+8. **Build Hubble**
 	```
 	cd hubble && yarn install && yarn build
 	```	
-8. **Create a network identity**
+9. **Create a network identity**
 	```
 	cd app/hubble 
 	```	
 	```
 	yarn identity create
 	```	
-9. **Start the Hub**
+10. **Start the Hub**
 	```
 	yarn start -e <eth-rpc-url> 
 	```
