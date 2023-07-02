@@ -43,10 +43,9 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	sudo apt install -y flatbuffers-compiler
 	```
 4. **Endpoint Goerli**
-	```
 	<a href="https://www.infura.io/">`Infura`</a>
 	<a href="https://www.alchemy.com/">`Alchemy`</a>
-	```
+
 5. **Open Port**
 	```
 	sudo ufw allow 8545
@@ -69,62 +68,4 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 9. **Start the Hub**
 	```
 	yarn start -e <eth-rpc-url> 
-	```	
-	
-## Useful Commands
-- **Stop Node**
-	```
-	docker stop pactus-testnet 
-	```
-- **Start Node**
-	```
-	docker start pactus-testnet 
-	```
-- **Check Logs**
-	```
-	docker logs pactus-testnet --tail 1000 -f
-	```
-## Faucet 
-<a href="https://discord.com/invite/H5vZkNnXCu">Request</a>
-
-## Check Balance
-- **Balance Faucet**
-[https://pactusscan.com/validator/[wallet-validator]](https://pactusscan.com/validator/[wallet-validator])
-
-- **Balance Reward**
-[https://www.pactusscan.com/account/[wallet-reward]](https://www.pactusscan.com/account/[wallet-reward])
-
-## Fix & Error
-- **Error `Port is already in use`**
-	```
-	docker stop pactus-testnet
-	```
-	```
-	docker rm pactus-testnet
-	```
-	```
-	docker run -it -v ~/pactus/testnet:/pactus -p 8888:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
-	```
-
-- **Error `Exiced Code / Stalled / Request Password`**
-	```
-	docker stop pactus-testnet
-	```
-	```
-	docker rm pactus-testnet
-	```
-	```
-	sudo apt-get install screen                                                                               # Install Screen
-	```
-	```
-	screen -S                                                                                                 # Sett Screen
-	```
-	```
-	docker run -it -v ~/pactus/testnet:/pactus -p 8080:8080 -p 21777:21777 --name pactus-testnet pactus/pactus start -w /pactus
-	```
-	```
-	CTRL a + d                                                                                                # Idle Screen
-	```
-	```
-	screen -r                                                                                                 # Back to Screen
 	```
