@@ -12,10 +12,6 @@
   <h1>Farcaster Installation</h1>
 </p>
 
-<p align="center">
-  <h4><span style="color: blue;">**Incentive Reward [confirm]**</span></h4>
-</p>
-
 ## Farcaster Description
 Farcaster is a community-created protocol for building decentralized social applications.
 
