@@ -23,50 +23,57 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 | Farcaster | 2          | 8         | 20  | Ubuntu 20.04 LTS  |
 
 ## Installation
+Prepare Open Port 
 
 1. **Update**
 	```
-	sudo apt update && sudo apt upgrade -y
+	sudo apt update; sudo apt upgrade
 	```
-2. **Install Git**
+2. **Install Docker & Dependencies**
 	```
-	sudo apt install curl git -y
+	sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport-https ca-certificates curl software-properties- common -y && curl -fsSL 
+        https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo 
+        apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 	```
-3. **Install Node**
+3. **Open Port**
 	```
-	curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-    source ~/.bashrc
+	sudo ufw allow 8545
+	sudo ufw allow 2282
+ 	sudo ufw allow 2283 
 	```
-4. **Install Flatbuffers**
+4. **Clone Repository**
 	```
-	sudo apt update
-	sudo apt install -y flatbuffers-compiler
+	git clone https://github.com/farcasterxyz/hub-monorepo.git
 	```
-5. **Create Endpoint `Goerli Ethereum`**
+5. **Create hub identity**
+	```
+	cd apps/hubble
+	```
+ 	```
+	docker compose run --rm hubble yarn identity create
+	```
+6. **Create Endpoint `Goerli Ethereum`**
 	- <a href="https://www.infura.io/">`Infura`</a>
    OR
 	- <a href="https://www.alchemy.com/">`Alchemy`</a>
 
-6. **Open Port**
+7. **Create a `.env` file in `apps/hubble` directory**
 	```
-	sudo ufw allow 8545
+	ETH_RPC_URL=your-ETH-RPC-URL
+	FC_NETWORK_ID=2
+	BOOTSTRAP_NODE=/dns/testnet1.farcaster.xyz/tcp/2282
 	```
-7. **Clone Hubble**
+8. **Run**
 	```
-	git clone https://github.com/farcasterxyz/hubble.git
+	docker compose up hubble
 	```
-8. **Build Hubble**
+9. **Verify**
+   	 ```
+	0 | hubble | { level: 30, time: 1679703063660, pid: 3259, hostname: 'ip-10-0-0-85', component: 'EthEventsProvider', blockNumber: 8712752, msg: 'new block: 8712752 };
+
+	0 | hubble | { level: 30, time: 1679702496763, pid: 3259, hostname: 'ip-10-0-0-85', component: 'SyncEngine', total: 1, success: 1, msg: 'Merged messages', };
+   	 ```
+10. **Monitor Status**
 	```
-	cd hubble && yarn install && yarn build
-	```	
-9. **Create a network identity**
-	```
-	cd app/hubble 
-	```	
-	```
-	yarn identity create
-	```	
-10. **Start the Hub**
-	```
-	yarn start -e <eth-rpc-url> 
+	docker compose exec hubble yarn status --watch --insecure
 	```
