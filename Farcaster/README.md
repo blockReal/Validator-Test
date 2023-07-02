@@ -20,7 +20,7 @@ Developers can use Farcaster to build new, decentralized social networks, lettin
 ## Minimum Spec Hardware
 NODE  | CPU     | RAM      | SSD     | OS     |
 | ------------- | ------------- | ------------- | -------- | -------- |
-| Farcaster | 2          | 8         | 15  | Ubuntu 20.04 LTS  |
+| Farcaster | 2          | 8         | 20  | Ubuntu 20.04 LTS  |
 
 ## Installation
 
