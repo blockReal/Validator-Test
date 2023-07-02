@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.farcaster.xyz/">Official</a> |
-  <a href="https://twitter.com/farcaster_xyz">Twitter</a> |
+  <a href="https://twitter.com/farcaster_xyz">Twitter</a>
 </p>
 
 <p align="center">
