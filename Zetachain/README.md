@@ -1,4 +1,4 @@
-## Introduction
+## Introduction Install Zetachain
 
 1. **Download**
 	```
@@ -23,3 +23,4 @@
 	```
 	./zeta.sh
 	```
+Source : https://kjnodes.com/
