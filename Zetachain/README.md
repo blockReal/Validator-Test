@@ -2,7 +2,7 @@
 
 1. **Download**
 	```
-	https://raw.githubusercontent.com/blockReal/Validator-Test/main/Zetachain/zeta.sh
+	wget https://raw.githubusercontent.com/blockReal/Validator-Test/main/Zetachain/zeta.sh
 	```
 2. **Install dos2unix**
 	```
