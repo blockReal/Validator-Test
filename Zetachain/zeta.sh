@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Setup validator name
-MONIKER="YOUR_MONIKER_GOES_HERE"
+# Setup validator name interactively
+read -p "Enter your validator name (MONIKER): " MONIKER
 
 # Install dependencies
 sudo apt update -y
