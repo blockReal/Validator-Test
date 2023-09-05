@@ -1,18 +1,12 @@
 #!/bin/bash
 
 # Setup validator name
-read -p "Enter your validator name (MONIKER): " MONIKER
-
-cat <<EOF >zeta.sh
-#!/bin/bash
-
-# Setup validator name
 MONIKER="YOUR_MONIKER_GOES_HERE"
 
 # Install dependencies
-sudo apt -q update
-sudo apt -qy install curl git jq lz4 build-essential
-sudo apt -qy upgrade
+sudo apt update -y
+sudo apt install -y curl git jq lz4 build-essential
+sudo apt upgrade -y
 
 # Install GO
 sudo rm -rf /usr/local/go
@@ -119,8 +113,6 @@ mv $HOME/.zetacored/priv_validator_state.json.backup $HOME/.zetacored/data/priv_
 
 # Restart the service and check the logs
 sudo systemctl start zetacored && sudo journalctl -u zetacored -f --no-hostname -o cat
-
-EOF
 
 # Mengatur izin eksekusi pada file baru
 chmod +x zeta.sh
