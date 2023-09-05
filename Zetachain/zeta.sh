@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Setup validator name interactively
-read -p "Enter your validator name (MONIKER): " MONIKER
+read -p "Masukkan nama moniker baru: " MONIKER
 
 # Install dependencies
 sudo apt update -y
