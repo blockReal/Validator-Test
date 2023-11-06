@@ -16,7 +16,7 @@
   <h1>Soarchain Installation</h1>
 </p>
 
-## Farcaster Description
+## Soarchain Description
 Soarchain, a Layer 1 network, enables an ecosystem where developers can leverage data a car produces each day
 
 ## Minimum Spec Hardware
@@ -28,18 +28,18 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 1. **Auto Install**
 	```
-        wget -O autoinstall.sh  https://raw.githubusercontent.com/blockReal/Validator-Test/main/Soarchain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
+wget -O autoinstall.sh  https://raw.githubusercontent.com/blockReal/Validator-Test/main/Soarchain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
 	```
 2. **Initialize Wallet**
 	```
-	soarchaind keys add KEY_NAME
+soarchaind keys add KEY_NAME
 	```
 	```
-	soarchaind keys list
+soarchaind keys list
 	```
 3. **Validator Public Key**
 	```
-    soarchaind tendermint show-validator
+soarchaind tendermint show-validator
 	```
 4. **Create Validator**
 	```
@@ -58,5 +58,5 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 	```
 5. **Update**
 	```
-	SOON
+SOON
 	```
