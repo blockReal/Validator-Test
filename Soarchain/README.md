@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.soarchain.com/=">Official</a> |
   <a href="https://twitter.com/soar_chain">Twitter</a> |
-  <a href="https://twitter.com/soar_chain">Discord</a> |
+  <a href="https://discord.com/invite/r43PyGyCst">Discord</a> |
   <a href="https://github.com/soar-robotics">Github</a> |
   <a href="https://www.blog.soarchain.com">Medium</a> | 
   <a href="https://docs.soarchain.com/category/validator">Docs</a>
