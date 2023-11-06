@@ -28,18 +28,18 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 1. **Auto Install**
 	```
-wget -O autoinstall.sh  https://raw.githubusercontent.com/blockReal/Validator-Test/main/Soarchain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
+	wget -O autoinstall.sh  https://raw.githubusercontent.com/blockReal/Validator-Test/main/Soarchain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
 	```
 2. **Initialize Wallet**
 	```
-soarchaind keys add KEY_NAME
+	soarchaind keys add KEY_NAME
 	```
 	```
-soarchaind keys list
+	soarchaind keys list
 	```
 3. **Validator Public Key**
 	```
-soarchaind tendermint show-validator
+	soarchaind tendermint show-validator
 	```
 4. **Create Validator**
 	```
@@ -58,5 +58,5 @@ soarchaind tendermint show-validator
 	```
 5. **Update**
 	```
-SOON
+	SOON
 	```
