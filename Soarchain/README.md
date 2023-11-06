@@ -28,7 +28,7 @@ NODE  | CPU     | RAM      | SSD     | OS     |
 
 1. **Auto Install**
 	```
-	wget -O autoinstall.sh https://raw.githubusercontent.com/an-node/NODE-TESTNET/main/SoarChain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
+        wget -O autoinstall.sh  https://raw.githubusercontent.com/blockReal/Validator-Test/main/Soarchain/autoinstall.sh && chmod +x autoinstall.sh && ./autoinstall.sh
 	```
 2. **Initialize Wallet**
 	```
